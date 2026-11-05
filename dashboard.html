@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | SpendWise Pakistan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Spend<span>Wise.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="expense-history.html">Transactions</a></li>
+                <li><a href="budget-planner.html">Budgets</a></li>
+                <li><a href="savings-goals.html">Savings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="add-expense.html" class="nav-button">+ Add Expense</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Dashboard Heading -->
+        <section class="dashboard-header">
+            <div>
+                <p class="eyebrow">PERSONAL FINANCE OVERVIEW</p>
+                <h1>Financial Dashboard</h1>
+                <p>Here's an overview of your financial activity.</p>
+            </div>
+
+            <div class="dashboard-date">
+                <span>REPORTING PERIOD</span>
+                <strong>November 2026</strong>
+            </div>
+        </section>
+
+        <section class="dashboard-container">
+
+            <!-- Summary Cards -->
+            <div class="summary-grid">
+
+                <article class="summary-card">
+                    <div class="summary-top">
+                        <span>Total Balance</span>
+                        <span class="summary-icon balance-icon">◈</span>
+                    </div>
+                    <h2>Rs. 85,450</h2>
+                    <p class="summary-note">Available balance</p>
+                </article>
+
+                <article class="summary-card">
+                    <div class="summary-top">
+                        <span>Total Income</span>
+                        <span class="summary-icon income-icon">↗</span>
+                    </div>
+                    <h2>Rs. 120,000</h2>
+                    <p class="summary-note">Income this month</p>
+                </article>
+
+                <article class="summary-card">
+                    <div class="summary-top">
+                        <span>Total Expenses</span>
+                        <span class="summary-icon expense-icon">↘</span>
+                    </div>
+                    <h2>Rs. 34,550</h2>
+                    <p class="summary-note">Expenses this month</p>
+                </article>
+
+                <article class="summary-card">
+                    <div class="summary-top">
+                        <span>Savings</span>
+                        <span class="summary-icon savings-icon">◎</span>
+                    </div>
+                    <h2>Rs. 85,450</h2>
+                    <p class="summary-note">Income minus expenses</p>
+                </article>
+
+            </div>
+
+            <!-- Spending Overview -->
+            <div class="dashboard-grid">
+
+                <section class="dashboard-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h2>Expense Breakdown</h2>
+                            <p>Monthly spending by category</p>
+                        </div>
+                        <span class="panel-period">November 2026</span>
+                    </div>
+
+                    <div class="category-row">
+                        <div class="category-info">
+                            <span>Grocery / Rashan</span>
+                            <strong>Rs. 12,000</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill grocery-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="category-row">
+                        <div class="category-info">
+                            <span>Electricity Bill</span>
+                            <strong>Rs. 8,500</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill electricity-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="category-row">
+                        <div class="category-info">
+                            <span>Petrol / Fuel</span>
+                            <strong>Rs. 6,000</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill petrol-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="category-row">
+                        <div class="category-info">
+                            <span>Internet & Mobile</span>
+                            <strong>Rs. 3,000</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill internet-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="category-row">
+                        <div class="category-info">
+                            <span>Other Expenses</span>
+                            <strong>Rs. 5,050</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill other-fill"></div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Budget Summary -->
+                <section class="dashboard-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h2>Monthly Budget</h2>
+                            <p>Your planned spending limit</p>
+                        </div>
+                    </div>
+
+                    <div class="budget-total">
+                        <span>Total Budget</span>
+                        <h2>Rs. 50,000</h2>
+                    </div>
+
+                    <div class="budget-progress">
+                        <div class="budget-progress-info">
+                            <span>Amount Spent</span>
+                            <strong>69.1%</strong>
+                        </div>
+
+                        <div class="progress-track">
+                            <div class="progress-fill budget-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="budget-details">
+                        <div>
+                            <span>Spent</span>
+                            <strong>Rs. 34,550</strong>
+                        </div>
+
+                        <div>
+                            <span>Remaining</span>
+                            <strong class="remaining-value">Rs. 15,450</strong>
+                        </div>
+                    </div>
+
+                    <a href="budget-planner.html" class="panel-link">
+                        View Budget Details →
+                    </a>
+                </section>
+
+            </div>
+
+            <!-- Recent Transactions -->
+            <section class="dashboard-panel recent-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <h2>Recent Transactions</h2>
+                        <p>Your latest financial activities</p>
+                    </div>
+
+                    <a href="expense-history.html" class="panel-link">
+                        View All →
+                    </a>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="finance-table">
+
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Category</th>
+                                <th>Date</th>
+                                <th>Payment Method</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Monthly Grocery</td>
+                                <td>Rashan</td>
+                                <td>02-11-2026</td>
+                                <td>Cash</td>
+                                <td class="amount-negative">Rs. 12,000</td>
+                            </tr>
+
+                            <tr>
+                                <td>Electricity Bill</td>
+                                <td>Utilities</td>
+                                <td>03-11-2026</td>
+                                <td>JazzCash</td>
+                                <td class="amount-negative">Rs. 8,500</td>
+                            </tr>
+
+                            <tr>
+                                <td>Petrol</td>
+                                <td>Transport</td>
+                                <td>03-11-2026</td>
+                                <td>Cash</td>
+                                <td class="amount-negative">Rs. 6,000</td>
+                            </tr>
+
+                            <tr>
+                                <td>Mobile Package</td>
+                                <td>Internet & Mobile</td>
+                                <td>04-11-2026</td>
+                                <td>Easypaisa</td>
+                                <td class="amount-negative">Rs. 3,000</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h2>Quick Actions</h2>
+
+                <div class="quick-action-list">
+                    <a href="add-expense.html" class="quick-action-card">
+                        <span>＋</span>
+                        <div>
+                            <strong>Add Expense</strong>
+                            <p>Record a new expense</p>
+                        </div>
+                    </a>
+
+                    <a href="expense-history.html" class="quick-action-card">
+                        <span>▤</span>
+                        <div>
+                            <strong>View Transactions</strong>
+                            <p>Review your spending history</p>
+                        </div>
+                    </a>
+
+                    <a href="savings-goals.html" class="quick-action-card">
+                        <span>◎</span>
+                        <div>
+                            <strong>Savings Goals</strong>
+                            <p>Review your financial goals</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="index.html" class="logo footer-logo">Spend<span>Wise.</span></a>
+            <p>Smart money management starts with better decisions.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 SpendWise. Academic Web Development Project.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

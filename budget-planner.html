@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner | SpendWise</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Spend<span>Wise.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="expense-history.html">Transactions</a></li>
+                <li><a href="budget-planner.html" class="active">Budgets</a></li>
+                <li><a href="savings-goals.html">Savings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="add-expense.html" class="nav-button">+ Add Expense</a>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="budget-hero">
+        <div>
+            <span class="section-tag">SMART FINANCIAL PLANNING</span>
+            <h1>Budget Planner</h1>
+            <p>Plan your monthly spending and stay in control of your money.</p>
+        </div>
+
+        <div class="budget-month">
+            <label for="budget-month">Budget Period</label>
+            <select id="budget-month">
+                <option>November 2026</option>
+                <option>October 2026</option>
+                <option>September 2026</option>
+            </select>
+        </div>
+    </section>
+
+    <main class="budget-container">
+
+        <!-- Overall Budget -->
+        <section class="overall-budget-card">
+            <div class="overall-budget-heading">
+                <div>
+                    <span>MONTHLY BUDGET OVERVIEW</span>
+                    <h2>Your Spending Plan</h2>
+                </div>
+                <span class="budget-status">Within Budget</span>
+            </div>
+
+            <div class="overall-budget-numbers">
+                <div>
+                    <p>Total Monthly Budget</p>
+                    <h2>Rs. 50,000</h2>
+                </div>
+
+                <div>
+                    <p>Total Spent</p>
+                    <h2>Rs. 34,550</h2>
+                </div>
+
+                <div>
+                    <p>Remaining Budget</p>
+                    <h2 class="remaining-value">Rs. 15,450</h2>
+                </div>
+            </div>
+
+            <div class="budget-progress-info">
+                <span>Budget Usage</span>
+                <strong>69.1%</strong>
+            </div>
+
+            <div class="budget-progress-track">
+                <div class="budget-progress-fill"></div>
+            </div>
+
+            <p class="budget-helper">
+                You have used 69.1% of your monthly spending limit.
+            </p>
+        </section>
+
+        <!-- Budget Category Heading -->
+        <section class="budget-section-heading">
+            <div>
+                <h2>Category Budgets</h2>
+                <p>See how much you have allocated and spent in each category.</p>
+            </div>
+
+            <a href="add-expense.html" class="budget-add-button">
+                + Add Expense
+            </a>
+        </section>
+
+        <!-- Category Budget Cards -->
+        <section class="budget-category-grid">
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">🛒</div>
+                    <span class="budget-label">Grocery / Rashan</span>
+                </div>
+                <h3>Rs. 12,000 <small>/ Rs. 15,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill grocery-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>80% used</span>
+                    <strong>Rs. 3,000 left</strong>
+                </div>
+            </div>
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">💡</div>
+                    <span class="budget-label">Electricity</span>
+                </div>
+                <h3>Rs. 8,500 <small>/ Rs. 10,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill electricity-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>85% used</span>
+                    <strong>Rs. 1,500 left</strong>
+                </div>
+            </div>
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">⛽</div>
+                    <span class="budget-label">Petrol / Fuel</span>
+                </div>
+                <h3>Rs. 6,000 <small>/ Rs. 8,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill petrol-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>75% used</span>
+                    <strong>Rs. 2,000 left</strong>
+                </div>
+            </div>
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">📱</div>
+                    <span class="budget-label">Internet & Mobile</span>
+                </div>
+                <h3>Rs. 3,000 <small>/ Rs. 4,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill internet-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>75% used</span>
+                    <strong>Rs. 1,000 left</strong>
+                </div>
+            </div>
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">🍽️</div>
+                    <span class="budget-label">Eating Out</span>
+                </div>
+                <h3>Rs. 2,500 <small>/ Rs. 4,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill eating-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>62.5% used</span>
+                    <strong>Rs. 1,500 left</strong>
+                </div>
+            </div>
+
+            <div class="budget-category-card">
+                <div class="budget-card-top">
+                    <div class="budget-icon">🏥</div>
+                    <span class="budget-label">Medical</span>
+                </div>
+                <h3>Rs. 1,000 <small>/ Rs. 3,000</small></h3>
+                <div class="category-progress-track">
+                    <div class="category-progress-fill medical-fill"></div>
+                </div>
+                <div class="category-budget-details">
+                    <span>33.3% used</span>
+                    <strong>Rs. 2,000 left</strong>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Budget Tips -->
+        <section class="budget-tips">
+            <div class="budget-tip-icon">💡</div>
+            <div>
+                <h3>Smart Budgeting Tip</h3>
+                <p>
+                    Your electricity budget is 85% used. Monitor your
+                    electricity consumption for the rest of November
+                    to avoid exceeding your monthly limit.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="index.html" class="logo footer-logo">
+                Spend<span>Wise.</span>
+            </a>
+            <p>Smart money management starts with better decisions.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 SpendWise. Academic Web Development Project.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SpendWise</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Spend<span>Wise.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="expense-history.html">Transactions</a></li>
+                <li><a href="budget-planner.html">Budgets</a></li>
+                <li><a href="savings-goals.html">Savings</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+
+            <a href="add-expense.html" class="nav-button">+ Add Expense</a>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <span class="section-tag">WE ARE HERE TO HELP</span>
+        <h1>Get in Touch</h1>
+        <p>
+            Have questions, feedback, or suggestions?
+            We would love to hear from you.
+        </p>
+    </section>
+
+    <main class="contact-container">
+
+        <!-- Contact Information -->
+        <section class="contact-info-section">
+
+            <div class="contact-info-heading">
+                <h2>Let's Talk</h2>
+                <p>
+                    Contact us if you have questions about SpendWise
+                    or want to share suggestions for improvement.
+                </p>
+            </div>
+
+            <div class="contact-info-card">
+                <div class="contact-info-icon">📧</div>
+                <div>
+                    <h3>Email</h3>
+                    <p>support@spendwise.example</p>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <div class="contact-info-icon">📍</div>
+                <div>
+                    <h3>Location</h3>
+                    <p>Pakistan</p>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <div class="contact-info-icon">🕒</div>
+                <div>
+                    <h3>Availability</h3>
+                    <p>Monday – Friday</p>
+                </div>
+            </div>
+
+            <div class="contact-note">
+                <h3>About this Project</h3>
+                <p>
+                    SpendWise is an academic Web Development project
+                    designed to demonstrate personal expense management,
+                    budgeting, and savings tracking.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+
+            <div class="contact-form-heading">
+                <h2>Send Us a Message</h2>
+                <p>Fill out the form below to share your message.</p>
+            </div>
+
+            <form class="contact-form" action="#" method="get">
+
+                <div class="contact-form-row">
+                    <div class="contact-form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name"
+                               name="name"
+                               placeholder="Enter your name"
+                               maxlength="60"
+                               required>
+                    </div>
+
+                    <div class="contact-form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"
+                               name="email"
+                               placeholder="example@email.com"
+                               required>
+                    </div>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option>General Inquiry</option>
+                        <option>Website Feedback</option>
+                        <option>Technical Issue</option>
+                        <option>Feature Suggestion</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="6"
+                              placeholder="Write your message here..."
+                              maxlength="1000"
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="contact-submit-button">
+                    Send Message →
+                </button>
+
+            </form>
+
+            <p class="contact-static-note">
+                This is a static prototype. Messages are not sent or stored.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="faq-heading">
+            <span class="section-tag">COMMON QUESTIONS</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>Some useful information about the SpendWise project.</p>
+        </div>
+
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <h3>What is SpendWise?</h3>
+                <p>
+                    SpendWise is a personal expense management website
+                    designed to help users organize expenses, plan budgets,
+                    and track savings.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Does SpendWise use Pakistani Rupees?</h3>
+                <p>
+                    Yes. The project uses PKR (Rs.) as its currency
+                    and includes categories relevant to everyday expenses
+                    in Pakistan.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I save my expenses?</h3>
+                <p>
+                    The current Phase 1 prototype is static. Expense
+                    storage and management functionality will be introduced
+                    in a later development phase.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I use SpendWise on mobile?</h3>
+                <p>
+                    The website layout is designed to adapt to different
+                    screen sizes, including desktop, tablet, and mobile.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="index.html" class="logo footer-logo">
+                Spend<span>Wise.</span>
+            </a>
+            <p>Smart money management starts with better decisions.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 SpendWise. Academic Web Development Project.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
