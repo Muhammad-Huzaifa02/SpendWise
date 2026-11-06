@@ -18,7 +18,7 @@ Describes the purpose, objectives, and intended value of the project.
 Displays example total balance, income, expenses, savings, category summaries, and recent activity. Values are static sample data.
 
 ### Add Expense
-Shows fields for entering an expense title, amount, date, category, payment method, and description. The form is not connected to storage.
+Shows fields for entering an expense title, amount, date, category, payment method, and description. The amount field is labeled `Amount` and uses an `Rs.` prefix; a separate currency badge and currency note are not shown. The form is not connected to storage.
 
 ### Transactions
 Displays example expense history in a table. Search, category, month, and pagination controls are placeholders and do not filter records.

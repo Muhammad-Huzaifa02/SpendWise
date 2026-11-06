@@ -52,6 +52,7 @@ Use this checklist during manual review. Mark an item complete only after checki
 - [ ] Required fields show native browser validation where configured.
 - [ ] Email field uses the email input type.
 - [ ] Numeric amount fields have sensible minimum values where configured.
+- [ ] Add Expense labels the amount field `Amount *` and displays `Rs.` as its input prefix without a separate currency badge or note.
 - [ ] Reset controls reset their respective forms.
 - [ ] Static forms are clearly understood not to save or send data.
 - [ ] Search, filter, and pagination controls are recognized as non-functional placeholders.

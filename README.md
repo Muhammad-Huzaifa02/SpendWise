@@ -22,7 +22,7 @@ The current prototype contains eight HTML pages:
 | Home | `index.html` | Introduces SpendWise and highlights example financial figures. |
 | About | `about.html` | Explains the project, its purpose, and objectives. |
 | Dashboard | `dashboard.html` | Shows example balance, income, expenses, savings, and category summaries. |
-| Add Expense | `add-expense.html` | Presents an expense-entry form. |
+| Add Expense | `add-expense.html` | Presents an expense-entry form with an `Amount` field and an `Rs.` prefix. |
 | Expense History | `expense-history.html` | Displays sample expense records and visual filter controls. |
 | Budget Planner | `budget-planner.html` | Shows a monthly budget and category-level progress. |
 | Savings Goals | `savings-goals.html` | Displays example savings targets and a goal form. |

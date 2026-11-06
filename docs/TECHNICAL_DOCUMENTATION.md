@@ -47,6 +47,8 @@ Avoid introducing a second, conflicting design system. When changing shared styl
 
 The HTML contains static, preformatted examples such as `Rs. 85,450`. These are presentation strings, not values retrieved from a financial data model.
 
+On `add-expense.html`, the amount label is `Amount *` and the input displays an `Rs.` prefix. The form does not use a separate currency badge or explanatory currency note.
+
 ### Future implementation requirements
 
 - Define the application currency centrally with ISO code `PKR`.
